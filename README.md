@@ -1,4 +1,4 @@
-#react-express-webpack-boilerplate
+# react-express-webpack-boilerplate
 
 The intention of this project is to provide a base for new projects development. It uses:
 
@@ -10,7 +10,7 @@ The intention of this project is to provide a base for new projects development.
 * Moment for dates manipulation
 
 
-##Running
+## Running
 
 Just do:
 
@@ -28,6 +28,6 @@ Also, you can run webpack in watch mode:
 npm run watch
 ```
 
-##License
+## License
 
 GPL 3.0
