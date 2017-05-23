@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'roboto';
+    src: local('Roboto'),
+	url(fonts/Roboto-Regular.ttf) format("truetype"),
+	url(fonts/Roboto-Regular.woff2) format("woff2"), 
+	url(fonts/Roboto-Regular.woff) format("woff");
+}
+
+body {
+	font-family: 'roboto', serif;
+}
+
+
+.seccion1{
+height: 100%;
+background-color:rgba(100, 170, 250, 0.1);
+}
+.seccion2{
+height: 50%;
+background-color:rgba(100, 170, 250, 1);
+font-size:25px;
+color: white;
+}
+.seccion3{
+height: 80%;
+background-color:rgba(100, 170, 250, 1);
+}
+
+.footer{
+background-color:rgba(100, 170, 250, 1);
+}

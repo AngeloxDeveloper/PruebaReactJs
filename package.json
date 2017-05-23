@@ -8,6 +8,11 @@
     "watch": "webpack --progress --colors --watch"
   },
   "dependencies": {
+    "axios": "^0.16.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "body-parser": "~1.15.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
@@ -17,16 +22,39 @@
     "moment": "^2.14.1",
     "morgan": "~1.7.0",
     "react": "^15.2.0",
-    "react-dom": "^15.2.0",
+    "react-dom": "^15.5.4",
     "request": "^2.72.0",
-    "serve-favicon": "~2.3.0"
+    "semantic-ui-react": "^0.68.3",
+    "serve-favicon": "~2.3.0",
+    "webpack": "^1.15.0"
   },
   "devDependencies": {
-    "babel-core": "^6.10.4",
-    "babel-loader": "^6.2.4",
+    "2015": "0.0.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
     "babel-polyfill": "^6.9.1",
-    "babel-preset-react": "^6.11.1",
+    "babel-preset-es": "^1.0.0",
     "babel-preset-es2015": "^6.9.0",
-    "webpack": "^1.13.1"
-  }
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "file-loader": "^0.11.1",
+    "image-webpack-loader": "^3.3.1",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "description": "The intention of this project is to provide a base for new projects development. It uses:",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloxDeveloper/react-express-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "Reactjs"
+  ],
+  "author": "Angelo Aste",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngeloxDeveloper/react-express-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AngeloxDeveloper/react-express-webpack-boilerplate#readme"
 }
